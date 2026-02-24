@@ -239,13 +239,13 @@ setTimeout(() => { heart.remove(); }, 5000);
 }, 300);
 }
 
-// --- 2. LOCK LOGIC (Pass: Rabia ) ---
+// --- 2. LOCK LOGIC (Pass: aksa ) ---
 function checkPassword() {
 const passInput = document.getElementById('password-input');
 const audio = document.getElementById('bg-music');
 const mainCard = document.getElementById('main-card');
 
-if (passInput.value.toLowerCase().trim() === 'aliya') {
+if (passInput.value.toLowerCase().trim() === 'aksa') {
 audio.play().catch(e => console.log("Audio interaction needed"));
 lockScreen.style.opacity = '0';
 setTimeout(() => {
